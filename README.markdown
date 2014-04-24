@@ -16,7 +16,10 @@ For example, to get a list of classes with at least 100 people in semester 2 of
 ```
 
 The script will output a csv table which can be imported into any spreadsheet
-software (MS Excel, Google Sheets, Open Office Spreadsheet, etc).
+software (MS Excel, Google Sheets, Open Office Spreadsheet, etc). Note that
+values in the output are separated by semicolons (;) rather than commas as some
+course titles have commas in them. Make sure you specify this when importing or
+it probably won't be correctly formatted.
 
 ## Files
 - getClasses.php: the main script that scrapes UNSW handbook
