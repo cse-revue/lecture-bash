@@ -5,7 +5,9 @@ UNSW Lecture Bash Script
 - php
 
 ## Usage
+```
 ./getClasses.php min_size #semester year
+```
 Results go to stdout, progress goes to stderr.
 For example, to get a list of classes with at least 100 people in semester 2 of
 2014, and store the output in output.csv, run:
